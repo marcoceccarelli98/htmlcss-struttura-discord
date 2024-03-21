@@ -53,11 +53,21 @@
     width: calc(100%/6*2);
 }
 
+.divisor {
+    height: 3px;
+    width: 100%;
+    background-color: lightgray;
+}
+
 /* --------------- UTILITY ---------------*/
 .border-dashed {
     padding: 5px;
     border: 1px solid;
     border-style: dashed;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 .text-center {
@@ -80,6 +90,11 @@
 .padding-5col {
     padding-top: 10px;
     padding-bottom: 30px;
+}
+
+.padding-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* HEIGHT */
